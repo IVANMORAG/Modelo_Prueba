@@ -927,10 +927,80 @@ def predecir_categoria_avanzada(modelo_info, meses_adelante=1):
     return predicciones
 
 # =============================================================================
+# FUNCIONES PARA CREAR SERIES TEMPORALES
+# =============================================================================
+
+def crear_series_temporales(df, nivel='CATEGORIA'):
+    """
+    Convierte datos transaccionales en series temporales mensuales
+    """
+    print(f"\n📊 Creando series temporales por {nivel}...")
+    
+    # Agregación mensual con múltiples métricas
+    agg_dict = {
+        'TOTALPESOS': ['sum', 'mean', 'std', 'count'],
+        'SOLICITUD': 'nunique',
+        'CENTROCOSTO': 'nunique',
+        'SOLICITANTE': 'nunique'
+    }
+    
+    df_agregado = df.groupby([nivel, 'año_mes']).agg(agg_dict).reset_index()
+    
+    # Aplanar nombres de columnas
+    df_agregado.columns = [
+        nivel.lower(), 'año_mes', 'gasto_total', 'gasto_promedio', 
+        'gasto_std', 'num_transacciones', 'ordenes_unicas', 
+        'centros_costo', 'solicitantes_unicos'
+    ]
+    
+    # Convertir período a fecha
+    df_agregado['fecha'] = df_agregado['año_mes'].dt.to_timestamp()
+    df_agregado = df_agregado.sort_values([nivel.lower(), 'fecha'])
+    
+    # Rellenar meses faltantes para cada categoría
+    print("🔄 Completando series temporales...")
+    df_completo = []
+    
+    categorias_unicas = df_agregado[nivel.lower()].unique()
+    print(f"   Procesando {len(categorias_unicas)} {nivel.lower()}s...")
+    
+    for i, categoria in enumerate(categorias_unicas):
+        if i % 10 == 0 and i > 0:
+            print(f"   Progreso: {i}/{len(categorias_unicas)}")
+            
+        df_cat = df_agregado[df_agregado[nivel.lower()] == categoria].copy()
+        
+        # Crear rango completo de fechas
+        fecha_min = df_cat['fecha'].min()
+        fecha_max = df_cat['fecha'].max()
+        fechas_completas = pd.date_range(fecha_min, fecha_max, freq='MS')
+        
+        # Reindexar y rellenar
+        df_cat = df_cat.set_index('fecha').reindex(fechas_completas)
+        df_cat[nivel.lower()] = categoria
+        df_cat = df_cat.fillna(0)  # Llenar huecos con 0
+        df_cat['fecha'] = df_cat.index
+        
+        df_completo.append(df_cat.reset_index(drop=True))
+    
+    df_final = pd.concat(df_completo, ignore_index=True)
+    
+    print(f"✅ Series temporales creadas:")
+    print(f"   📊 {len(df_final):,} puntos de datos")
+    print(f"   🏷️ {df_final[nivel.lower()].nunique()} {nivel.lower()}s únicas")
+    print(f"   📅 {df_final['fecha'].nunique()} períodos temporales")
+    
+    # Guardar en variable global
+    global datos_temporales
+    datos_temporales[nivel] = df_final
+    
+    return df_final
+
+# =============================================================================
 # FUNCIONES PRINCIPALES
 # =============================================================================
 
-def cargar_y_procesar_datos_avanzado(ruta_excel, sheet_name="Detalle"):
+def cargar_y_procesar_datos_avanzado(ruta_archivo, sheet_name=None):
     """
     Versión avanzada de carga y procesamiento de datos
     """
