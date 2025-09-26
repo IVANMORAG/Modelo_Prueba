@@ -193,6 +193,18 @@ def crear_features_avanzados(df_serie, categoria):
     df = df_serie.copy()
     print(f"🔬 Creando features avanzados para {categoria}...")
     
+    # Validar que las columnas requeridas existen
+    required_metrics = ['gasto_total', 'num_transacciones', 'gasto_promedio']
+    available_metrics = [m for m in required_metrics if m in df.columns]
+    if not available_metrics:
+        print(f"❌ No se encontraron métricas requeridas: {required_metrics}")
+        return df
+    
+    # Verificar que 'fecha' es una columna válida
+    if 'fecha' not in df.columns or not pd.api.types.is_datetime64_any_dtype(df['fecha']):
+        print(f"❌ Columna 'fecha' no válida o no encontrada")
+        return df
+    
     # 1. FEATURES TEMPORALES BÁSICOS
     df['mes'] = df['fecha'].dt.month
     df['trimestre'] = df['fecha'].dt.quarter
@@ -200,108 +212,88 @@ def crear_features_avanzados(df_serie, categoria):
     df['dias_mes'] = df['fecha'].dt.days_in_month
     
     # 2. FEATURES ESTACIONALES AVANZADOS
-    # Componentes trigonométricas para capturar patrones cíclicos
     df['mes_sin'] = np.sin(2 * np.pi * df['mes'] / 12)
     df['mes_cos'] = np.cos(2 * np.pi * df['mes'] / 12)
     df['trim_sin'] = np.sin(2 * np.pi * df['trimestre'] / 4)
     df['trim_cos'] = np.cos(2 * np.pi * df['trimestre'] / 4)
     
-    # Estacionalidad específica del negocio
     df['es_fin_año'] = ((df['mes'] == 12) | (df['mes'] == 1)).astype(int)
     df['es_medio_año'] = ((df['mes'] >= 6) & (df['mes'] <= 8)).astype(int)
     df['es_inicio_año'] = ((df['mes'] >= 1) & (df['mes'] <= 3)).astype(int)
     
     # 3. LAGS Y VENTANAS MÓVILES AVANZADOS
-    # Múltiples lags para capturar patrones temporales
     lags = [1, 2, 3, 6, 12, 24]
-    metrics = ['gasto_total', 'num_transacciones', 'gasto_promedio']
-    
-    for metric in metrics:
-        if metric in df.columns:
-            for lag in lags:
-                df[f'{metric}_lag_{lag}'] = df[metric].shift(lag)
-    
-    # Ventanas móviles de diferentes tamaños
     windows = [3, 6, 12, 24]
-    for metric in metrics:
-        if metric in df.columns:
-            for window in windows:
-                # Estadísticas básicas
-                df[f'{metric}_ma_{window}'] = df[metric].rolling(window=window, min_periods=1).mean()
-                df[f'{metric}_std_{window}'] = df[metric].rolling(window=window, min_periods=1).std()
-                df[f'{metric}_min_{window}'] = df[metric].rolling(window=window, min_periods=1).min()
-                df[f'{metric}_max_{window}'] = df[metric].rolling(window=window, min_periods=1).max()
-                df[f'{metric}_median_{window}'] = df[metric].rolling(window=window, min_periods=1).median()
-                
-                # Percentiles
-                df[f'{metric}_q25_{window}'] = df[metric].rolling(window=window, min_periods=1).quantile(0.25)
-                df[f'{metric}_q75_{window}'] = df[metric].rolling(window=window, min_periods=1).quantile(0.75)
+    
+    for metric in available_metrics:
+        for lag in lags:
+            df[f'{metric}_lag_{lag}'] = df[metric].shift(lag)
+        
+        for window in windows:
+            df[f'{metric}_ma_{window}'] = df[metric].rolling(window=window, min_periods=1).mean()
+            df[f'{metric}_std_{window}'] = df[metric].rolling(window=window, min_periods=1).std()
+            df[f'{metric}_min_{window}'] = df[metric].rolling(window=window, min_periods=1).min()
+            df[f'{metric}_max_{window}'] = df[metric].rolling(window=window, min_periods=1).max()
+            df[f'{metric}_median_{window}'] = df[metric].rolling(window=window, min_periods=1).median()
+            df[f'{metric}_q25_{window}'] = df[metric].rolling(window=window, min_periods=1).quantile(0.25)
+            df[f'{metric}_q75_{window}'] = df[metric].rolling(window=window, min_periods=1).quantile(0.75)
     
     # 4. FEATURES DE TENDENCIA Y MOMENTUM
     df['tendencia_lineal'] = range(len(df))
     
-    for metric in metrics:
-        if metric in df.columns:
-            # Cambios porcentuales
-            df[f'{metric}_pct_change_1'] = df[metric].pct_change(1)
-            df[f'{metric}_pct_change_3'] = df[metric].pct_change(3)
-            df[f'{metric}_pct_change_12'] = df[metric].pct_change(12)
-            
-            # Aceleración (segunda derivada)
-            df[f'{metric}_accel'] = df[f'{metric}_pct_change_1'].diff()
-            
-            # Momentum (tendencia reciente vs histórica)
+    for metric in available_metrics:
+        df[f'{metric}_pct_change_1'] = df[metric].pct_change(1)
+        df[f'{metric}_pct_change_3'] = df[metric].pct_change(3)
+        df[f'{metric}_pct_change_12'] = df[metric].pct_change(12)
+        df[f'{metric}_accel'] = df[f'{metric}_pct_change_1'].diff()
+        
+        # Momentum solo si las columnas de medias móviles existen
+        if f'{metric}_ma_3' in df.columns and f'{metric}_ma_12' in df.columns:
             df[f'{metric}_momentum_3_12'] = (df[f'{metric}_ma_3'] / df[f'{metric}_ma_12']) - 1
+        if f'{metric}_ma_6' in df.columns and f'{metric}_ma_24' in df.columns:
             df[f'{metric}_momentum_6_24'] = (df[f'{metric}_ma_6'] / df[f'{metric}_ma_24']) - 1
     
     # 5. FEATURES ESPECÍFICOS DEL DOMINIO DE COMPRAS
-    # Ratios y eficiencias
-    df['gasto_por_transaccion'] = df['gasto_total'] / (df['num_transacciones'] + 1e-8)
-    df['gasto_por_orden'] = df['gasto_total'] / (df['ordenes_unicas'] + 1e-8)
-    df['transacciones_por_orden'] = df['num_transacciones'] / (df['ordenes_unicas'] + 1e-8)
-    df['diversidad_centros'] = df['centros_costo'] / (df['ordenes_unicas'] + 1e-8)
-    df['diversidad_solicitantes'] = df['solicitantes_unicos'] / (df['ordenes_unicas'] + 1e-8)
+    if 'gasto_total' in df.columns and 'num_transacciones' in df.columns:
+        df['gasto_por_transaccion'] = df['gasto_total'] / (df['num_transacciones'] + 1e-8)
+    if 'gasto_total' in df.columns and 'ordenes_unicas' in df.columns:
+        df['gasto_por_orden'] = df['gasto_total'] / (df['ordenes_unicas'] + 1e-8)
+        df['transacciones_por_orden'] = df['num_transacciones'] / (df['ordenes_unicas'] + 1e-8)
+        df['diversidad_centros'] = df['centros_costo'] / (df['ordenes_unicas'] + 1e-8)
+        df['diversidad_solicitantes'] = df['solicitantes_unicos'] / (df['ordenes_unicas'] + 1e-8)
     
-    # Volatilidad y estabilidad
-    df['volatilidad_gasto'] = df['gasto_total'].rolling(window=6, min_periods=1).std()
-    df['coef_variacion_gasto'] = df['volatilidad_gasto'] / (df['gasto_ma_6'] + 1e-8)
-    df['estabilidad_gasto'] = 1 / (1 + df['coef_variacion_gasto'])
+    # 6. VOLATILIDAD Y ESTABILIDAD
+    if 'gasto_total' in df.columns and f'gasto_total_ma_6' in df.columns:
+        df['volatilidad_gasto'] = df['gasto_total'].rolling(window=6, min_periods=1).std()
+        df['coef_variacion_gasto'] = df['volatilidad_gasto'] / (df['gasto_total_ma_6'] + 1e-8)
+        df['estabilidad_gasto'] = 1 / (1 + df['coef_variacion_gasto'])
     
-    # 6. FEATURES DE ACTIVIDAD Y PERIODICIDAD
-    # Indicadores de actividad
-    df['meses_sin_actividad'] = (df['gasto_total'] == 0).astype(int)
-    df['racha_sin_actividad'] = df.groupby((df['gasto_total'] > 0).cumsum())['meses_sin_actividad'].cumsum()
+    # 7. FEATURES DE ACTIVIDAD Y PERIODICIDAD
+    if 'gasto_total' in df.columns:
+        df['meses_sin_actividad'] = (df['gasto_total'] == 0).astype(int)
+        df['racha_sin_actividad'] = df.groupby((df['gasto_total'] > 0).cumsum())['meses_sin_actividad'].cumsum()
+        df['compra_activa'] = (df['gasto_total'] > 0).astype(int)
+        df['frecuencia_compra_6m'] = df['compra_activa'].rolling(window=6, min_periods=1).sum()
+        df['frecuencia_compra_12m'] = df['compra_activa'].rolling(window=12, min_periods=1).sum()
     
-    # Periodicidad de compras
-    df['compra_activa'] = (df['gasto_total'] > 0).astype(int)
-    df['frecuencia_compra_6m'] = df['compra_activa'].rolling(window=6, min_periods=1).sum()
-    df['frecuencia_compra_12m'] = df['compra_activa'].rolling(window=12, min_periods=1).sum()
+    # 8. FEATURES COMPARATIVOS
+    for metric in available_metrics:
+        media_historica = df[metric].expanding(min_periods=1).mean()
+        df[f'{metric}_vs_historico'] = df[metric] / (media_historica + 1e-8)
+        df[f'{metric}_desv_historico'] = (df[metric] - media_historica) / (media_historica + 1e-8)
     
-    # 7. FEATURES COMPARATIVOS (vs promedio histórico)
-    for metric in ['gasto_total', 'num_transacciones']:
-        if metric in df.columns:
-            media_historica = df[metric].expanding(min_periods=1).mean()
-            df[f'{metric}_vs_historico'] = df[metric] / (media_historica + 1e-8)
-            df[f'{metric}_desv_historico'] = (df[metric] - media_historica) / (media_historica + 1e-8)
+    # 9. FEATURES DE ANOMALÍAS
+    for metric in available_metrics:
+        rolling_mean = df[metric].rolling(window=12, min_periods=1).mean()
+        rolling_std = df[metric].rolling(window=12, min_periods=1).std()
+        df[f'{metric}_z_score'] = (df[metric] - rolling_mean) / (rolling_std + 1e-8)
+        df[f'{metric}_es_anomalia'] = (np.abs(df[f'{metric}_z_score']) > 2).astype(int)
     
-    # 8. FEATURES DE ANOMALÍAS
-    # Detección de valores anómalos
-    for metric in ['gasto_total', 'num_transacciones']:
-        if metric in df.columns:
-            rolling_mean = df[metric].rolling(window=12, min_periods=1).mean()
-            rolling_std = df[metric].rolling(window=12, min_periods=1).std()
-            df[f'{metric}_z_score'] = (df[metric] - rolling_mean) / (rolling_std + 1e-8)
-            df[f'{metric}_es_anomalia'] = (np.abs(df[f'{metric}_z_score']) > 2).astype(int)
-    
-    # 9. LIMPIEZA FINAL
-    # Reemplazar infinitos y valores extremos
+    # 10. LIMPIEZA FINAL
     df = df.replace([np.inf, -np.inf], np.nan)
-    
-    # Imputación inteligente
     numeric_cols = df.select_dtypes(include=[np.number]).columns
     for col in numeric_cols:
         if col not in ['fecha', 'año', 'mes', 'trimestre']:
-            # Forward fill -> Backward fill -> Media móvil -> 0
             df[col] = (df[col]
                       .fillna(method='ffill')
                       .fillna(method='bfill')
@@ -1000,7 +992,7 @@ def crear_series_temporales(df, nivel='CATEGORIA'):
 # FUNCIONES PRINCIPALES
 # =============================================================================
 
-def cargar_y_procesar_datos_avanzado(ruta_archivo, sheet_name=None):
+def cargar_y_procesar_datos_avanzado(ruta_csv):
     """
     Versión avanzada de carga y procesamiento de datos
     """
@@ -1009,7 +1001,7 @@ def cargar_y_procesar_datos_avanzado(ruta_archivo, sheet_name=None):
     print("📊 Cargando y procesando datos...")
     
     # Cargar datos
-    df = pd.read_excel(ruta_excel, sheet_name=sheet_name)
+    df = pd.read_csv(ruta_csv)
     print(f"✅ Datos originales: {len(df):,} registros, {len(df.columns)} columnas")
     
     # Limpieza básica
@@ -1292,7 +1284,7 @@ def guardar_modelos_avanzados(modelos, directorio="modelos_avanzados"):
 # FUNCIÓN PRINCIPAL DE EJECUCIÓN
 # =============================================================================
 
-def ejecutar_sistema_completo(ruta_excel, sheet_name="Detalle", meses_prediccion=1):
+def ejecutar_sistema_completo(ruta_csv, meses_prediccion=1):
     """
     Ejecuta el sistema completo de predicción avanzada
     """
@@ -1300,7 +1292,7 @@ def ejecutar_sistema_completo(ruta_excel, sheet_name="Detalle", meses_prediccion
     print("="*80)
     
     # 1. Cargar y procesar datos
-    df = cargar_y_procesar_datos_avanzado(ruta_excel, sheet_name)
+    df = cargar_y_procesar_datos_avanzado(ruta_csv)
     
     # 2. Entrenar modelos
     modelos, resultados = ejecutar_entrenamiento_avanzado(df)
