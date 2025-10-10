@@ -1,0 +1,851 @@
+2025-10-09 10:43:55 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 10:43:55 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 10:43:55 | ERROR    | services.model_service:_load_all_models:46 - ❌ Error al cargar modelos: Modelo de predicción no encontrado: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 10:45:31 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 10:45:31 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 10:45:32 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 10:45:32 | ERROR    | services.model_service:_load_all_models:46 - ❌ Error al cargar modelos: Modelo temporal no encontrado: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 10:46:37 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 10:46:37 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 10:46:38 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 10:46:39 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 10:46:39 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 10:46:39 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 10:46:39 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 10:48:17 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 10:48:17 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 10:48:19 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 10:48:20 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 10:48:20 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 10:48:20 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 10:48:20 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 10:49:12 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 10:49:12 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 10:49:13 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 10:49:14 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 10:49:14 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 10:49:14 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 10:49:14 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 10:54:26 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 10:54:26 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 10:54:27 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 10:54:28 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 10:54:28 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 10:54:28 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 10:54:28 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 10:54:31 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 10:54:31 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 10:54:32 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 10:54:33 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 10:54:33 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 10:54:33 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 10:54:33 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 10:54:34 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 10:54:34 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 10:54:34 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 10:54:34 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 10:54:48 | ERROR    | config.database:test_connection:89 -  Error en conexión a base de datos: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 10:54:48 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 10:54:48 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 10:54:48 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 10:54:48 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 10:54:48 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 10:54:48 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 10:54:48 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 10:54:48 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 10:54:48 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 10:56:33 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 10:56:33 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:00:07 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:00:07 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:00:08 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:00:10 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:00:10 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:00:10 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:00:10 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:00:13 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:00:13 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:00:14 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:00:15 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:00:15 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:00:15 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:00:15 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:00:16 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:00:16 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:00:16 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:00:16 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:00:30 | ERROR    | config.database:test_connection:89 -  Error en conexión a base de datos: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:00:30 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:00:30 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:00:30 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:00:30 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:00:30 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:00:30 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:00:30 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:00:30 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:00:30 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:03:24 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:03:24 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:03:27 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:03:27 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:03:33 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:03:33 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:03:34 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:03:35 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:03:35 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:03:35 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:03:35 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:03:37 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:03:37 | INFO     | config.database:_initialize_engine:41 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:03:39 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:03:40 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:03:40 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:03:40 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:03:40 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:03:40 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:03:40 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:03:40 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:03:40 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:03:53 | ERROR    | config.database:test_connection:89 - ❌ Error en conexión a base de datos: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:03:53 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:03:53 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:03:53 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:03:53 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:03:53 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:03:53 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:03:53 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:03:53 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:03:53 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:10:38 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:10:38 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:14:04 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:14:04 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:14:06 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:14:07 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:14:07 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:14:07 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:14:07 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:14:09 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:14:09 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:14:11 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:14:11 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:14:11 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:14:11 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:14:11 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:14:12 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:14:12 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:14:12 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:14:12 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:14:24 | ERROR    | config.database:test_connection:94 - ❌ Error desconocido en conexión a base de datos: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456); [28000] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:14:24 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:14:24 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:14:24 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:14:24 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:14:24 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:14:24 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:14:24 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:14:24 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:14:24 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:14:30 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:14:30 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:18:11 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:18:11 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:18:12 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:18:13 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:18:13 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:18:13 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:18:13 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:18:16 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:18:16 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:18:17 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:18:18 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:18:18 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:18:18 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:18:18 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:18:18 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:18:18 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:18:18 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:18:18 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:18:31 | ERROR    | config.database:test_connection:94 - ❌ Error desconocido en conexión a base de datos: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:18:31 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:18:31 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:18:31 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:18:31 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:18:31 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:18:31 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:18:31 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:18:31 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:18:31 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:18:34 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:18:34 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:21:54 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:21:54 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:21:56 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:21:57 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:21:57 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:21:57 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:21:57 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:21:59 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:21:59 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:22:01 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:22:02 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:22:02 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:22:02 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:22:02 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:22:02 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:22:02 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:22:02 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:22:02 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:22:14 | ERROR    | config.database:test_connection:94 - ❌ Error desconocido en conexión a base de datos: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:22:14 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:22:14 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:22:14 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:22:14 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:22:14 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:22:14 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:22:14 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:22:14 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:22:14 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:22:17 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:22:17 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:23:01 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:23:01 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:23:02 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:23:03 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:23:03 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:23:03 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:23:03 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:23:05 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:23:05 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:23:06 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:23:07 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:23:07 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:23:07 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:23:07 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:23:08 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:23:08 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:23:08 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:23:08 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:23:11 | ERROR    | config.database:test_connection:94 - ❌ Error desconocido en conexión a base de datos: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:23:11 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:23:11 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:23:11 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:23:11 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:23:11 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:23:11 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:23:11 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:23:11 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:23:11 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:23:17 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:23:17 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:24:41 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:24:41 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:24:42 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:24:43 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:24:43 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:24:43 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:24:43 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:24:46 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:24:46 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:24:47 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:24:48 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:24:48 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:24:48 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:24:48 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:24:48 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:24:48 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:24:48 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:24:48 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:25:01 | ERROR    | config.database:test_connection:94 - ❌ Error desconocido en conexión a base de datos: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:25:01 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:25:01 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:25:01 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:25:01 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:25:01 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:25:01 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:25:01 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:25:01 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:25:01 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:25:30 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:25:30 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:25:37 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:25:37 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:25:38 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:25:39 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:25:39 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:25:39 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:25:39 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:25:41 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:25:41 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:25:42 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:25:43 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:25:43 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:25:43 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:25:43 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:25:44 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:25:44 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:25:44 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:25:44 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:25:48 | ERROR    | config.database:test_connection:94 - ❌ Error desconocido en conexión a base de datos: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:25:48 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:25:48 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:25:48 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:25:48 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:25:48 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:25:48 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:25:48 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:25:48 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:25:48 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:26:37 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:26:37 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:27:45 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:27:45 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:27:47 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:27:48 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:27:48 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:27:48 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:27:48 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:27:50 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:27:50 | INFO     | config.database:_initialize_engine:40 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:27:52 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:27:53 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:27:53 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:27:53 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:27:53 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:27:53 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:27:53 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:27:53 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:27:53 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:28:06 | ERROR    | config.database:test_connection:94 - ❌ Error desconocido en conexión a base de datos: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:28:06 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:28:06 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:28:06 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:28:06 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:28:06 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:28:06 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:28:06 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:28:06 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:28:06 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:28:11 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:28:11 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:28:35 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:28:35 | INFO     | config.database:_initialize_engine:31 - 🔍 URL de conexión (primeros 150 chars): mssql+pyodbc:///?odbc_connect=DRIVER%3D%7BODBC+Driver+17+for+SQL+Server%7D%3BSERVER%3DAA16PSQL19F%3BDATABASE%3DJC_CTLGTOS%3BUID%3Djc_ctlgtos%3BPWD%3Dj...
+2025-10-09 11:28:35 | INFO     | config.database:_initialize_engine:32 - 🔍 Credenciales - USER: jc_ctlgtos, SERVER: AA16PSQL19F, DB: JC_CTLGTOS
+2025-10-09 11:28:35 | INFO     | config.database:_initialize_engine:46 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:28:36 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:28:37 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:28:37 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:28:37 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:28:37 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:28:40 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:28:40 | INFO     | config.database:_initialize_engine:31 - 🔍 URL de conexión (primeros 150 chars): mssql+pyodbc:///?odbc_connect=DRIVER%3D%7BODBC+Driver+17+for+SQL+Server%7D%3BSERVER%3DAA16PSQL19F%3BDATABASE%3DJC_CTLGTOS%3BUID%3Djc_ctlgtos%3BPWD%3Dj...
+2025-10-09 11:28:40 | INFO     | config.database:_initialize_engine:32 - 🔍 Credenciales - USER: jc_ctlgtos, SERVER: AA16PSQL19F, DB: JC_CTLGTOS
+2025-10-09 11:28:40 | INFO     | config.database:_initialize_engine:46 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:28:41 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:28:42 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:28:42 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:28:42 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:28:42 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:28:43 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:28:43 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:28:43 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:28:43 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:28:43 | INFO     | config.database:test_connection:116 - 🔍 Probando conexión directa con pyodbc...
+2025-10-09 11:28:43 | INFO     | config.database:test_connection_direct:63 - 🔍 Probando conexión DIRECTA - SERVER=AA16PSQL19F, DB=JC_CTLGTOS, USER=jc_ctlgtos
+2025-10-09 11:28:46 | ERROR    | config.database:test_connection_direct:76 - ❌ Error en conexión directa: ('28000', "[28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'. (18456)")
+2025-10-09 11:28:46 | ERROR    | config.database:test_connection:118 - ❌ Falló la conexión directa, no se probará con SQLAlchemy
+2025-10-09 11:28:46 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:28:46 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:28:46 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:28:46 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:28:46 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:28:46 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:28:46 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:28:46 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:28:46 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:28:48 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:28:48 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:34:00 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:34:00 | INFO     | config.database:_initialize_engine:31 - 🔍 URL de conexión (primeros 150 chars): mssql+pyodbc:///?odbc_connect=DRIVER%3D%7BODBC+Driver+17+for+SQL+Server%7D%3BSERVER%3DAA16PSQL19F%3BDATABASE%3DJC_CTLGTOS%3BUID%3Djc_ctlgtos%3BPWD%3Dj...
+2025-10-09 11:34:00 | INFO     | config.database:_initialize_engine:32 - 🔍 Credenciales - USER: jc_ctlgtos, SERVER: AA16PSQL19F, DB: JC_CTLGTOS
+2025-10-09 11:34:00 | INFO     | config.database:_initialize_engine:46 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:34:01 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:34:02 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:34:02 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:34:02 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:34:02 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:34:04 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:34:04 | INFO     | config.database:_initialize_engine:31 - 🔍 URL de conexión (primeros 150 chars): mssql+pyodbc:///?odbc_connect=DRIVER%3D%7BODBC+Driver+17+for+SQL+Server%7D%3BSERVER%3DAA16PSQL19F%3BDATABASE%3DJC_CTLGTOS%3BUID%3Djc_ctlgtos%3BPWD%3Dj...
+2025-10-09 11:34:05 | INFO     | config.database:_initialize_engine:32 - 🔍 Credenciales - USER: jc_ctlgtos, SERVER: AA16PSQL19F, DB: JC_CTLGTOS
+2025-10-09 11:34:05 | INFO     | config.database:_initialize_engine:46 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:34:06 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:34:07 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:34:07 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:34:07 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:34:07 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:34:07 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:34:07 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:34:07 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:34:07 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:34:07 | INFO     | config.database:test_connection:116 - 🔍 Probando conexión directa con pyodbc...
+2025-10-09 11:34:07 | INFO     | config.database:test_connection_direct:63 - 🔍 Probando conexión DIRECTA - SERVER=AA16PSQL19F, DB=JC_CTLGTOS, USER=jc_ctlgtos
+2025-10-09 11:34:19 | ERROR    | config.database:test_connection_direct:76 - ❌ Error en conexión directa: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [384].  (384) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (384)')
+2025-10-09 11:34:19 | ERROR    | config.database:test_connection:118 - ❌ Falló la conexión directa, no se probará con SQLAlchemy
+2025-10-09 11:34:19 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:34:19 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:34:19 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:34:19 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:34:19 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:34:19 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:34:19 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:34:19 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:34:19 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:34:38 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:34:38 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:38:55 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:38:55 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:38:57 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:38:58 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:38:58 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:38:58 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:38:58 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:39:00 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:39:00 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:39:01 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:39:02 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:39:02 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:39:02 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:39:02 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:39:02 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:39:02 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:39:02 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:39:02 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:39:14 | ERROR    | config.database:test_connection:87 - ❌ Error al conectar a la base de datos: (pyodbc.InterfaceError) ('28000', "[28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'sa'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC SQL Server Driver]Atributo de cadena de conexión no válido (0); [28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'sa'. (18456); [28000] [Microsoft][ODBC SQL Server Driver]Atributo de cadena de conexión no válido (0)")
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:39:14 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:39:14 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:39:14 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:39:14 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:39:14 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:39:14 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:39:14 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:39:14 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:39:14 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:39:16 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:39:16 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:42:42 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:42:43 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:42:44 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:42:44 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:42:44 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:42:44 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:42:44 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:42:46 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:42:47 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:42:48 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:42:49 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:42:49 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:42:49 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:42:49 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:42:49 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:42:49 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:42:49 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:42:49 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:43:00 | ERROR    | config.database:test_connection:87 - ❌ Error al conectar a la base de datos: (pymssql.exceptions.OperationalError) (20002, b'DB-Lib error message 20002, severity 9:\nAdaptive Server connection failed (AA16PSQL19F)\nDB-Lib error message 20002, severity 9:\nAdaptive Server connection failed (AA16PSQL19F)\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-09 11:43:00 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:43:00 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:43:00 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:43:00 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:43:00 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:43:00 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:43:00 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:43:00 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:43:00 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:43:03 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:43:03 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:44:49 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:44:49 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:44:50 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:44:51 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:44:51 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:44:51 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:44:51 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:44:53 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:44:53 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:44:54 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:44:55 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:44:55 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:44:55 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:44:55 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:44:56 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:44:56 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:44:56 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:44:56 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:45:12 | ERROR    | config.database:test_connection:87 - ❌ Error al conectar a la base de datos: (pymssql.exceptions.OperationalError) (20009, b'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (AA16PSQL19F)\nDB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (AA16PSQL19F)\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-10-09 11:45:12 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:45:12 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:45:12 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:45:12 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:45:12 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:45:12 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:45:12 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:45:12 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:45:12 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:45:21 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:45:21 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:48:31 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:48:32 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:48:33 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:48:34 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:48:34 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:48:34 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:48:34 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:48:37 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:48:37 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:48:38 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:48:39 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:48:39 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:48:39 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:48:39 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:48:39 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:48:39 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:48:39 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:48:39 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:48:39 | ERROR    | config.database:test_connection:87 - ❌ Error al conectar a la base de datos: (pyodbc.InterfaceError) ('IM002', '[IM002] [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:48:39 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:48:39 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:48:39 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:48:39 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:48:39 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:48:39 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:48:39 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:48:39 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:48:39 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:48:45 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:48:45 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:49:24 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:49:24 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:49:25 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:49:26 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:49:26 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:49:26 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:49:26 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:49:29 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:49:29 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:49:30 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:49:31 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:49:31 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:49:31 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:49:31 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:49:31 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:49:31 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:49:31 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:49:31 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:49:31 | ERROR    | config.database:test_connection:87 - ❌ Error al conectar a la base de datos: (pyodbc.InterfaceError) ('IM002', '[IM002] [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:49:31 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:49:31 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:49:31 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:49:31 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:49:31 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:49:31 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:49:31 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:49:31 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:49:31 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:49:42 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:49:42 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:51:15 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:51:15 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:51:17 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:51:18 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:51:18 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:51:18 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:51:18 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:51:20 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:51:20 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:51:21 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:51:22 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:51:22 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:51:22 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:51:22 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:51:22 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:51:22 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:51:22 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:51:22 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:51:23 | ERROR    | config.database:test_connection:87 - ❌ Error al conectar a la base de datos: (pyodbc.InterfaceError) ('IM002', '[IM002] [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:51:23 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:51:23 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:51:23 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:51:23 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:51:23 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:51:23 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:51:23 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:51:23 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:51:23 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:51:25 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:51:25 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:51:51 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:51:51 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:51:52 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:51:53 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:51:53 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:51:53 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:51:53 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:51:55 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:51:55 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:51:57 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:51:58 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:51:58 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:51:58 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:51:58 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:51:58 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:51:58 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:51:58 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:51:58 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:51:58 | ERROR    | config.database:test_connection:87 - ❌ Error al conectar a la base de datos: (pyodbc.InterfaceError) ('IM002', '[IM002] [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:51:58 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:51:58 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:51:58 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:51:58 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:51:58 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:51:58 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:51:58 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:51:58 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:51:58 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:52:05 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:52:05 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:52:23 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:52:23 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:52:24 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:52:25 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:52:25 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:52:25 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:52:25 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:52:27 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:52:27 | INFO     | config.database:_initialize_engine:39 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:52:28 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:52:29 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:52:29 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:52:29 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:52:29 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:52:30 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:52:30 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:52:30 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:52:30 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:52:30 | ERROR    | config.database:test_connection:87 - ❌ Error al conectar a la base de datos: (pyodbc.InterfaceError) ('IM002', '[IM002] [Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado (0) (SQLDriverConnect)')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-10-09 11:52:30 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:52:30 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:52:30 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:52:30 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:52:30 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:52:30 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:52:30 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:52:30 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:52:30 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:52:35 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:52:35 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:55:02 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:56:31 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:56:31 | INFO     | config.database:__init__:16 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:56:33 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:56:34 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:56:34 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:56:34 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:56:34 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:56:36 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:56:36 | INFO     | config.database:__init__:16 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:56:38 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:56:39 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:56:39 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:56:39 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:56:39 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:56:40 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:56:40 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:56:40 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:56:40 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:56:52 | ERROR    | config.database:get_connection:32 - ❌ Error en conexión de base de datos: (-2147352567, 'Ocurrió una excepción.', (0, 'Microsoft OLE DB Provider for SQL Server', "Login failed for user 'sa'.", None, 0, -2147217843), None)
+2025-10-09 11:56:52 | ERROR    | config.database:test_connection:83 - ❌ Error al conectar a la base de datos: (-2147352567, 'Ocurrió una excepción.', (0, 'Microsoft OLE DB Provider for SQL Server', "Login failed for user 'sa'.", None, 0, -2147217843), None)
+2025-10-09 11:56:52 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:56:52 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:56:52 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:56:52 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:56:52 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:56:52 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:56:52 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:56:52 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:56:52 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:57:48 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:57:48 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 11:58:24 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:58:24 | INFO     | config.database:__init__:24 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:58:24 | INFO     | config.database:__init__:25 - 🔍 Connection String: Provider=SQLOLEDB.1;Data Source=AA16PSQL19F;Initial Catalog=JC_CTLGTOS;User ID=j...
+2025-10-09 11:58:26 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:58:27 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:58:27 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:58:27 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:58:27 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:58:29 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 11:58:29 | INFO     | config.database:__init__:24 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 11:58:29 | INFO     | config.database:__init__:25 - 🔍 Connection String: Provider=SQLOLEDB.1;Data Source=AA16PSQL19F;Initial Catalog=JC_CTLGTOS;User ID=j...
+2025-10-09 11:58:31 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 11:58:32 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 11:58:32 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 11:58:32 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 11:58:32 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 11:58:32 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 11:58:32 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 11:58:32 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 11:58:32 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 11:58:45 | ERROR    | config.database:get_connection:41 - ❌ Error en conexión de base de datos: (-2147352567, 'Ocurrió una excepción.', (0, 'Microsoft OLE DB Provider for SQL Server', "Login failed for user 'sa'.", None, 0, -2147217843), None)
+2025-10-09 11:58:45 | ERROR    | config.database:test_connection:92 - ❌ Error al conectar a la base de datos: (-2147352567, 'Ocurrió una excepción.', (0, 'Microsoft OLE DB Provider for SQL Server', "Login failed for user 'sa'.", None, 0, -2147217843), None)
+2025-10-09 11:58:45 | WARNING  | main:lifespan:47 - ⚠️ No se pudo conectar a la base de datos
+2025-10-09 11:58:45 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 11:58:45 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 11:58:45 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 11:58:45 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 11:58:45 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 11:58:45 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 11:58:45 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 11:58:45 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 11:58:47 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 11:58:47 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 12:09:10 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 12:09:10 | INFO     | config.database:__init__:24 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 12:09:10 | INFO     | config.database:__init__:25 - 🔍 Connection String: Provider=SQLOLEDB.1;Data Source=AA16PSQL19F;Initial Catalog=JC_CTLGTOS;User ID=j...
+2025-10-09 12:09:12 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 12:09:14 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 12:09:14 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 12:09:14 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 12:09:14 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 12:09:16 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 12:09:16 | INFO     | config.database:__init__:24 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 12:09:16 | INFO     | config.database:__init__:25 - 🔍 Connection String: Provider=SQLOLEDB.1;Data Source=AA16PSQL19F;Initial Catalog=JC_CTLGTOS;User ID=j...
+2025-10-09 12:09:18 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 12:09:19 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 12:09:19 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 12:09:19 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 12:09:19 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 12:09:19 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 12:09:19 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 12:09:19 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 12:09:19 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 12:09:19 | INFO     | config.database:test_connection:89 - ✅ Conexión a base de datos exitosa
+2025-10-09 12:09:19 | INFO     | main:lifespan:45 - ✅ Conexión a base de datos establecida
+2025-10-09 12:09:19 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 12:09:19 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 12:09:19 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 12:09:19 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 12:09:19 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 12:09:19 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 12:09:19 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 12:09:19 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 12:13:08 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 12:13:08 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 12:13:14 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 12:13:14 | INFO     | config.database:__init__:24 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 12:13:14 | INFO     | config.database:__init__:25 - 🔍 Connection String: Provider=SQLOLEDB.1;Data Source=AA16PSQL19F;Initial Catalog=JC_CTLGTOS;User ID=j...
+2025-10-09 12:13:16 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 12:13:16 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 12:13:16 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 12:13:16 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 12:13:16 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 12:13:18 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 12:13:18 | INFO     | config.database:__init__:24 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 12:13:18 | INFO     | config.database:__init__:25 - 🔍 Connection String: Provider=SQLOLEDB.1;Data Source=AA16PSQL19F;Initial Catalog=JC_CTLGTOS;User ID=j...
+2025-10-09 12:13:20 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 12:13:21 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 12:13:21 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 12:13:21 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 12:13:21 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 12:13:21 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 12:13:21 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 12:13:21 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 12:13:21 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 12:13:21 | INFO     | config.database:test_connection:89 - ✅ Conexión a base de datos exitosa
+2025-10-09 12:13:21 | INFO     | main:lifespan:45 - ✅ Conexión a base de datos establecida
+2025-10-09 12:13:21 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 12:13:21 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 12:13:21 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 12:13:21 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 12:13:21 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 12:13:21 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 12:13:21 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 12:13:21 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 12:13:28 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 12:13:28 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-09 12:13:43 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 12:13:43 | INFO     | config.database:__init__:16 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 12:13:45 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 12:13:46 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 12:13:46 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 12:13:46 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 12:13:46 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 12:13:48 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-09 12:13:48 | INFO     | config.database:__init__:16 - ✅ Motor de base de datos inicializado correctamente
+2025-10-09 12:13:50 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-09 12:13:51 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-09 12:13:51 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-09 12:13:51 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-09 12:13:51 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-09 12:13:51 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-09 12:13:51 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-09 12:13:51 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-09 12:13:51 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-09 12:13:51 | INFO     | config.database:test_connection:80 - ✅ Conexión a base de datos exitosa
+2025-10-09 12:13:51 | INFO     | main:lifespan:45 - ✅ Conexión a base de datos establecida
+2025-10-09 12:13:51 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-09 12:13:51 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-09 12:13:51 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-09 12:13:51 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-09 12:13:51 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-09 12:13:51 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-09 12:13:51 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-09 12:13:51 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-09 12:14:22 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-09 12:14:22 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
+2025-10-10 10:09:29 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-10 10:09:29 | INFO     | config.database:__init__:16 - ✅ Motor de base de datos inicializado correctamente
+2025-10-10 10:09:31 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-10 10:09:33 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-10 10:09:33 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-10 10:09:33 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-10 10:09:33 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-10 10:09:35 | INFO     | utils.logger:setup_logger:40 - 🚀 Sistema de logging inicializado
+2025-10-10 10:09:35 | INFO     | config.database:__init__:16 - ✅ Motor de base de datos inicializado correctamente
+2025-10-10 10:09:37 | INFO     | services.model_service:_load_prediccion_model:58 - ✅ Modelo de predicción cargado desde: artifacts\modelo_prediccion_limpio.pkl
+2025-10-10 10:09:39 | INFO     | services.model_service:_load_temporal_model:69 - ✅ Modelo temporal cargado desde: artifacts\modelo_demanda_temporal.pkl
+2025-10-10 10:09:39 | INFO     | services.model_service:_load_encoders:79 - ✅ Encoders cargados: ['CATEGORIA', 'CLASE', 'FAMILIA', 'DESTINO', 'ORIGEN', 'UN']
+2025-10-10 10:09:39 | INFO     | services.model_service:_load_analisis:90 - ✅ Análisis previos cargados
+2025-10-10 10:09:39 | INFO     | services.model_service:_load_all_models:43 - ✅ Todos los modelos cargados correctamente
+2025-10-10 10:09:39 | INFO     | main:lifespan:29 - ======================================================================
+2025-10-10 10:09:39 | INFO     | main:lifespan:30 - 🚀 INICIANDO API DE PRONÓSTICO Y MONITOREO PRESUPUESTAL
+2025-10-10 10:09:39 | INFO     | main:lifespan:31 - ======================================================================
+2025-10-10 10:09:39 | INFO     | main:lifespan:35 - 📦 Artefactos: {'modelo_prediccion': True, 'modelo_temporal': True, 'encoders': True, 'analisis': True}
+2025-10-10 10:09:39 | INFO     | config.database:test_connection:80 - ✅ Conexión a base de datos exitosa
+2025-10-10 10:09:39 | INFO     | main:lifespan:45 - ✅ Conexión a base de datos establecida
+2025-10-10 10:09:39 | INFO     | main:lifespan:53 - 🤖 Modelos cargados:
+2025-10-10 10:09:39 | INFO     | main:lifespan:56 -    ✅ prediccion_gasto
+2025-10-10 10:09:39 | INFO     | main:lifespan:56 -    ✅ demanda_temporal
+2025-10-10 10:09:39 | INFO     | main:lifespan:56 -    ✅ encoders
+2025-10-10 10:09:39 | INFO     | main:lifespan:58 - ======================================================================
+2025-10-10 10:09:39 | INFO     | main:lifespan:59 - ✅ API lista en http://0.0.0.0:8000
+2025-10-10 10:09:39 | INFO     | main:lifespan:60 - 📚 Documentación: http://0.0.0.0:8000/docs
+2025-10-10 10:09:39 | INFO     | main:lifespan:61 - ======================================================================
+2025-10-10 10:09:48 | INFO     | main:lifespan:66 - 🛑 Cerrando API...
+2025-10-10 10:09:48 | INFO     | main:lifespan:67 - ✅ API cerrada correctamente
